@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ClientUi">
+      <UniqueIdentifier>{365ee841-9009-4a9f-a3bf-76ad9890678c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClientUi\MainWindow">
+      <UniqueIdentifier>{099ccc4d-c84e-43eb-a18f-66d133ebc349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFmpegCapure">
+      <UniqueIdentifier>{c0dab2b3-a88e-4866-97df-2a64fbfbd996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClientUi\FFmpegPlay">
+      <UniqueIdentifier>{355c3a47-0dad-4199-80b2-b28e9f8f3994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFmpegWarpper">
+      <UniqueIdentifier>{d42ba5c9-62ab-4ba2-a515-a8dcaca478b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ClientUi\MainWindow\MainWindow.cpp">
+      <Filter>Source Files\ClientUi\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegCapture\FFmpegCaputre.cpp">
+      <Filter>Source Files\FFmpegCapure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClientUi\FFmpegPlay\FFmpegPlayWidget.cpp">
+      <Filter>Source Files\ClientUi\FFmpegPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\MoudleConfig.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\Mutex\Cond.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\Mutex\Mutex.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\EventHandle\AudioPlayerEventHandle.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioReader\ReadAACFileThread.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioReader\ReadAudioFileThread.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioReader\AAC\AACReader.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer_RtAudio.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer_SDL.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioPlayer\PcmVolumeControl.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioFrame\AACFrame.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioFrame\PCMFrame.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\AudioDecoder\AACDecoder.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\asio\asio.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\asio\asiodrivers.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\asio\asiolist.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\asio\iasiothiscallresolver.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\RtAudio\RtAudio.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFmpegWarpper\RtAudio\rtaudio_c.cpp">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ClientUi\MainWindow\MainWindow.h">
+      <Filter>Source Files\ClientUi\MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="src\FFmpegCapture\FFmpegCaputre.h">
+      <Filter>Source Files\FFmpegCapure</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ClientUi\FFmpegPlay\FFmpegPlayWidget.h">
+      <Filter>Source Files\ClientUi\FFmpegPlay</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\ClientUi\MainWindow\MainWindow.ui">
+      <Filter>Source Files\ClientUi\MainWindow</Filter>
+    </QtUic>
+    <QtUic Include="src\ClientUi\FFmpegPlay\FFmpegPlayWidget.ui">
+      <Filter>Source Files\ClientUi\FFmpegPlay</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FFmpegWarpper\MoudleConfig.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\Mutex\Cond.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\Mutex\Mutex.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\EventHandle\AudioPlayerEventHandle.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioReader\ReadAACFileThread.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioReader\ReadAudioFileThread.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioReader\AAC\AACReader.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer_RtAudio.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioPlayer\AudioPlayer_SDL.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioPlayer\PcmVolumeControl.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioFrame\AACFrame.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioFrame\PCMFrame.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\AudioDecoder\AACDecoder.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\asio.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\asiodrivers.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\asiodrvr.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\asiolist.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\asiosys.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\dsound.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\functiondiscoverykeys_devpkey.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\ginclude.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\iasiodrv.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\iasiothiscallresolver.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\asio\soundcard.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\RtAudio\RtAudio.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FFmpegWarpper\RtAudio\rtaudio_c.h">
+      <Filter>Source Files\FFmpegWarpper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
