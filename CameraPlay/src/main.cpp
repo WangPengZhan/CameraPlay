@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     w.show();
 
     FFmpegCaputre ffmpegCapture;
-    QObject::connect(&ffmpegCapture, &FFmpegCaputre::captureImage, &w, &MainWindow::SetImage, Qt::DirectConnection);
+    QObject::connect(&ffmpegCapture, &FFmpegCaputre::captureImage, &w, &MainWindow::SetImage);
     ffmpegCapture.SetFilename("D:/workfile/BilibiliDownloaders/x64/Debug/Download/BV19W4y1x71Sall.mp4");
     ffmpegCapture.Start();
     return a.exec();

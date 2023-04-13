@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\VideoCodec">
+      <UniqueIdentifier>{1b64e020-2300-47ca-bbc5-ea8f31fbacb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VideoCollector">
+      <UniqueIdentifier>{c307a19e-4aaa-487e-bba9-a580d0ae2b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VideoConvert">
+      <UniqueIdentifier>{13498d3a-f713-435b-8e22-75dd10f888f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\VideoCodec\VideoEncoder.h">
+      <Filter>src\VideoConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoCodec\VideoEncoderX264.h">
+      <Filter>src\VideoConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoCollector\VideoCollector.h">
+      <Filter>src\VideoCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoCollector\WindowVideoCollector.h">
+      <Filter>src\VideoCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoConvert\SwsHelper.h">
+      <Filter>src\VideoCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RecorderPort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\VideoCodec\VideoEncoder.cpp">
+      <Filter>src\VideoConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoCodec\VideoEncoderX264.cpp">
+      <Filter>src\VideoConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoCollector\VideoCollector.cpp">
+      <Filter>src\VideoCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoCollector\WindowVideoCollector.cpp">
+      <Filter>src\VideoCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoConvert\SwsHelper.cpp">
+      <Filter>src\VideoCodec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

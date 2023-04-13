@@ -1,3 +1,6 @@
+#include <Windows.h>
+#include <gdiplus.h>
+
 
 #include "FFmpegPlayWidget.h"
 #include "ui_FFmpegPlayWidget.h"
@@ -27,6 +30,9 @@ void FFmpegPlayWidget::SetImage(const QImage& image)
 {
     // const QImage showImage = image.scaled(ui->labelShow->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
     SetPixmap(QPixmap::fromImage(image));
+
+    auto dc = ::GetDC((HWND)ui->labelShow->winId());
+
 }
 
 void FFmpegPlayWidget::SetPixmap(const QPixmap& pixmap)
